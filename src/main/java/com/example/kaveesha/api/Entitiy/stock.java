@@ -11,6 +11,8 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.web.multipart.MultipartFile;
+
 @Data
 @Builder
 @AllArgsConstructor
@@ -36,10 +38,5 @@ public class stock {
     private String description;
     @Column(name="image")
     private String image;
-
-
-
-
-
 
 }
